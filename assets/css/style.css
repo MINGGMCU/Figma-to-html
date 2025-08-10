@@ -233,6 +233,9 @@ a {
 }
 
 .hero .watch-video .icon {
+  width: 40px;
+  height: 40px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -240,6 +243,7 @@ a {
   background: #fff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.07);
 }
+
 
 .hero .watch-video span {
   color: #171100;
@@ -266,4 +270,12 @@ a {
 
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
+}
+
+.hero .watch-video:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.hero .watch-video .icon:hover {
+  background-color: #f0f0f0;
 }
