@@ -235,15 +235,19 @@ a {
 .hero .watch-video .icon {
   width: 40px;
   height: 40px;
-
+  background: transparent; /* bỏ nền */
+  box-shadow: none; /* bỏ shadow của vỏ bọc */
+  border-radius: 0; /* không cần bo tròn nữa */
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 40px;
-  background: #fff;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.07);
 }
 
+.hero .watch-video .icon img {
+  width: 70px;
+  height: 70px;
+  display: block;
+}
 
 .hero .watch-video span {
   color: #171100;
@@ -277,5 +281,5 @@ a {
   transition: 0.2s;
 }
 .hero .watch-video .icon:hover {
-  background-color: #f0f0f0;
+  background-color: #fffcf4;
 }
